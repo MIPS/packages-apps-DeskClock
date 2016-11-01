@@ -41,5 +41,6 @@ LOCAL_AAPT_FLAGS += --extra-packages com.android.datetimepicker
 LOCAL_AAPT_FLAGS += --extra-packages com.android.messageformat
 
 LOCAL_PROGUARD_FLAG_FILES := ../../../frameworks/support/design/proguard-rules.pro
+LOCAL_PROGUARD_FLAG_FILES += proguard-rules.pro
 
 include $(BUILD_PACKAGE)
